@@ -1,0 +1,8 @@
+{% extends "doza_webpage/base.html" %}
+{% block content %}
+<p>Site Projects</p>
+
+<ul>
+    {% for site in sites %}
+    <li>{{ site }}</li>
+</ul>
